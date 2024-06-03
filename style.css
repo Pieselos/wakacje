@@ -1,13 +1,14 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
+} */
 
 nav {
     background-color: #333;
     color: white;
     padding: 1em 0;
+    border-radius: 15px;
 }
 
 nav ul {
@@ -44,8 +45,8 @@ nav ul li a:hover {
 }
 
 .gallery img {
-    width: 200px;
-    height: 150px;
+    width: 400px;
+    height:200px;
     margin: 1em;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -92,4 +93,42 @@ nav ul li a:hover {
 
 #kontakt button:hover {
     background-color: #555;
+}
+.center{
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.offer {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.offer h2 {
+    margin-top: 0;
+}
+.offer button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.offer button:hover {
+    background-color: #0056b3;
+}
+.active{
+    color:black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
 }
