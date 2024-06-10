@@ -5,6 +5,7 @@
 } */
 
 nav {
+    margin-bottom: 20px;
     background-color: #333;
     color: white;
     padding: 1em 0;
@@ -131,4 +132,107 @@ body {
     background-color: white;
     padding: 15px;
     border-radius: 15px;
+}
+
+.news-card {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.news-card h2 {
+    margin-top: 0;
+}
+.news-card p {
+    margin: 10px 0;
+}
+.news-card a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.news-card a:hover {
+    background-color: #0056b3;
+}
+.form-container {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.form-container h2 {
+    margin-top: 0;
+}
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.form-container input, .form-container textarea, .form-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-container button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background-color: #0056b3;
+}
+.company-info {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.company-info h2 {
+    margin-top: 0;
+}
+.contact-container {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.contact-container h2 {
+    margin-top: 0;
+}
+.contact-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.contact-container input, .contact-container textarea, .contact-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-container button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.contact-container button:hover {
+    background-color: #0056b3;
+}
+.company-info {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.company-info h2 {
+    margin-top: 0;
 }

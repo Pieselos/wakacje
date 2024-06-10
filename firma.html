@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="aktualnosci.html" >Aktualności</a></li>
+            <li><a href="gory.html">Góry</a></li>
+            <li><a href="morze.html">Morze</a></li>
+            <li><a href="egzotyka.html">Egzotyka</a></li>
+            <li><a href="firma.html" class="active">Firma</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    <div class="form-container">
+        <h2>Formularz Ofertowy</h2>
+        <form action="/submit_offer" method="post">
+            <label for="name">Imię i nazwisko:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Adres e-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Numer telefonu:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="offer">Opis oferty:</label>
+            <textarea id="offer" name="offer" rows="4" required></textarea>
+
+            <button type="submit">Wyślij ofertę</button>
+        </form>
+    </div>
+
+    <div class="company-info">
+        <h2>O Naszej Firmie</h2>
+        <p>Nasza firma specjalizuje się w organizacji wyjątkowych wyjazdów do egzotycznych miejsc na całym świecie. Działamy na rynku od wielu lat, oferując naszym klientom niezapomniane przeżycia i najwyższy standard usług.</p>
+        <p>Oferujemy szeroką gamę wyjazdów, w tym:</p>
+        <ul>
+            <li>Wakacje na Malediwach</li>
+            <li>Egzotyczne przygody w Tajlandii</li>
+            <li>Safari w Kenii</li>
+            <li>Rajski wypoczynek na Bali</li>
+            <li>Karaibskie przygody na Dominikanie</li>
+        </ul>
+        <p>Naszym priorytetem jest zadowolenie klientów, dlatego dbamy o każdy detal organizowanych przez nas wyjazdów, zapewniając komfort, bezpieczeństwo i niezapomniane wrażenia.</p>
+        <p>Zapraszamy do kontaktu i skorzystania z naszych usług!</p>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Biuro podróży Testoviron. Wszelkie prawa zastrzeżone.</p>
+        <p>
+            <a href="#">Polityka Prywatności</a> | 
+            <a href="#">Warunki Korzystania</a> | 
+            <a href="#">Kontakt</a>
+        </p>
+        <p>Śledź nas na:
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://www.instagram.com" target="_blank">Instagram</a> | 
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>

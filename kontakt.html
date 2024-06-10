@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="aktualnosci.html">Aktualności</a></li>
+            <li><a href="gory.html">Góry</a></li>
+            <li><a href="morze.html">Morze</a></li>
+            <li><a href="egzotyka.html">Egzotyka</a></li>
+            <li><a href="firma.html">Firma</a></li>
+            <li><a href="kontakt.html" class="active">Kontakt</a></li>
+        </ul>
+    </nav>
+    <div class="contact-container">
+        <h2>Formularz Kontaktowy</h2>
+        <form action="/submit_contact" method="post">
+            <label for="name">Imię i nazwisko:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Adres e-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Wyślij wiadomość</button>
+        </form>
+    </div>
+
+    <div class="company-info">
+        <h2>Nasze Dane Kontaktowe</h2>
+        <p><strong>Adres: </strong></p>
+        <p>Biuro podróży Testoviron Sp. z o.o.<br>
+           Ul. Zygmunta Augusta 1<br>
+           34-600 Limanowa</p>
+
+        <p><strong>Telefon:</strong></p>
+        <p>+48 123 456 789</p>
+
+        <p><strong>E-mail:</strong></p>
+        <p>kontakt@Testoviron.pl</p>
+
+        <p><strong>Godziny otwarcia:</strong></p>
+        <p>Poniedziałek - Piątek: 09:00 - 18:00<br>
+           Sobota: 10:00 - 14:00<br>
+           Niedziela: Nieczynne</p>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Biuro podróży Testoviron. Wszelkie prawa zastrzeżone.</p>
+        <p>
+            <a href="#">Polityka Prywatności</a> | 
+            <a href="#">Warunki Korzystania</a> | 
+            <a href="#">Kontakt</a>
+        </p>
+        <p>Śledź nas na:
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://www.instagram.com" target="_blank">Instagram</a> | 
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>
